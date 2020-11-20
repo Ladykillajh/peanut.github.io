@@ -34,9 +34,9 @@ $(document).ready(function () {
 });
 
 
-//Hide all image slide and show image have index "stt"
-//Remove active all buttton and set "active" for button have index "stt"
-//Reset timer when change image
+// Ẩn tất cả slide hình ảnh và hiển thị hình ảnh có chỉ mục "stt"
+// Xóa tất cả nút đang hoạt động và đặt "hoạt động" cho nút có chỉ mục "stt"
+// Đặt lại bộ hẹn giờ khi thay đổi hình ảnh
 function changeImg(stt) {
     $("img.slide").hide();
     $("img.slide").eq(stt).fadeIn(500);

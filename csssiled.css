@@ -19,7 +19,7 @@ img.slide:not(:first-child) {
     padding: 5px;
 }
 
-/* 2 button change slide: prev and next */
+/*tạo cho 2 nút button */
 .btn-change {
     width: 30px;
     height: 30px;
@@ -36,7 +36,7 @@ img.slide:not(:first-child) {
     left: 10px;
 }
 
-/* 4 button corresponding to 4 image */
+/* setup ảnh */
 .change-img {
     text-align: center;
     margin-top: 1rem;
